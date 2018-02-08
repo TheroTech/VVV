@@ -32,6 +32,8 @@
 
 # Ignore the nvm git clone in the 'nvm' directory in config
 /config/nvm/*
+/config/nnvm
+
 
 # Ignore a custom bash_prompt if it exists
 /config/bash_prompt
@@ -60,7 +62,7 @@
 
 # And we do have a default SQL file that should be included
 !/database/init.sql
-
+!/database/init-custom.sql
 # And we provide our default host names in a dat file.
 !/www/vvv-hosts
 
